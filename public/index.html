@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>File Server</h2>
+
+<form action="/upload" method="POST" enctype="multipart/form-data">
+    <input type="file" name="files" multiple required>
+    <button>Upload</button>
+</form>
+
+<h3>File List</h3>
+<ul id="list"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
